@@ -18,7 +18,7 @@ public class MyConnection {
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        System.out.println("connection done");
+        System.out.println("Authentication successfull");
         return connection;
     }
 

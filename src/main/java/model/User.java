@@ -20,7 +20,7 @@ public class User {
         this.name = name;
     }
 
-    public User(String email, String name) {
+    public User(String name, String email) {
         this.email = email;
         this.name = name;
     }
