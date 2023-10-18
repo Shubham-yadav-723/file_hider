@@ -71,7 +71,8 @@ public class Welcome {
                 System.out.println("Enter the otp: ");
                 String otp=sc.nextLine();
                 if(otp.equals(genOTP)){
-                    System.out.println("Welcome ");
+                    new UserView(email).home();
+
                 }else {
                     System.out.println("Incorrect otp");
                 }
